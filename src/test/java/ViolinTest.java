@@ -9,7 +9,7 @@ public class ViolinTest {
 
     @Before
     public void before(){
-        stradivarius1 = new Violin(3);
+        stradivarius1 = new Violin(ItemType.STRINGS, "Wood", 3);
     }
 
     @Test
@@ -22,5 +22,29 @@ public class ViolinTest {
         stradivarius1.setNumberOfStrings(4);
         assertEquals(4, stradivarius1.getNumberOfStrings().intValue());
     }
+
+    @Test
+    public void canGetType(){
+        assertEquals(ItemType.STRINGS, stradivarius1.getType());
+    }
+
+    @Test
+    public void canGetPrimaryMaterial(){
+        assertEquals("Wood", stradivarius1.getPrimaryMaterial());
+    }
+
+    @Test
+    public void canSetType(){
+        stradivarius1.setType(ItemType.PERCUSSION);
+        assertEquals(ItemType.PERCUSSION, stradivarius1.getType());
+    }
+
+    @Test
+    public void canSetPrimaryMaterial(){
+        stradivarius1.setPrimaryMaterial("Plastic");
+        assertEquals("Plastic", stradivarius1.getPrimaryMaterial());
+    }
+
+
 
 }

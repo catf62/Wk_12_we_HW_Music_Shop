@@ -9,7 +9,7 @@ public class CorAnglaisTest {
 
     @Before
     public void before(){
-        corAnglais1 = new CorAnglais("Reedy Reed");
+        corAnglais1 = new CorAnglais(ItemType.WOODWIND, "Wood","Reedy Reed");
     }
 
     @Test
@@ -21,6 +21,28 @@ public class CorAnglaisTest {
     public void canSetReedType(){
         corAnglais1.setReedType("Super Awesome Reed");
         assertEquals("Super Awesome Reed", corAnglais1.getReedType());
+    }
+
+    @Test
+    public void canGetType(){
+        assertEquals(ItemType.WOODWIND, corAnglais1.getType());
+    }
+
+    @Test
+    public void canGetPrimaryMaterial(){
+        assertEquals("Wood", corAnglais1.getPrimaryMaterial());
+    }
+
+    @Test
+    public void canSetType(){
+        corAnglais1.setType(ItemType.BRASS);
+        assertEquals(ItemType.BRASS, corAnglais1.getType());
+    }
+
+    @Test
+    public void canSetPrimaryMaterial(){
+        corAnglais1.setPrimaryMaterial("Plastic");
+        assertEquals("Plastic", corAnglais1.getPrimaryMaterial());
     }
 
 }

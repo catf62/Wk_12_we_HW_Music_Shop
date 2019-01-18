@@ -1,7 +1,8 @@
 public class CorAnglais extends Instrument {
     private String reedType;
 
-    public CorAnglais(String reedType){
+    public CorAnglais(ItemType type, String primaryMaterial, String reedType){
+        super(type, primaryMaterial);
         this.reedType = reedType;
     }
 
