@@ -1,8 +1,8 @@
 public class Timpani extends Instrument {
     private Integer numberOfDrums;
 
-    public Timpani(ItemType type, String primaryMaterial, Integer numberOfDrums){
-        super(type, primaryMaterial);
+    public Timpani(ItemType type, String primaryMaterial, Integer numberOfDrums, String name){
+        super(type, primaryMaterial, name);
         this.numberOfDrums = numberOfDrums;
     }
 

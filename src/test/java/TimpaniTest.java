@@ -9,7 +9,7 @@ public class TimpaniTest {
 
     @Before
     public void before(){
-        boomBoomBooom1 = new Timpani(ItemType.PERCUSSION, "Copper", 3);
+        boomBoomBooom1 = new Timpani(ItemType.PERCUSSION, "Copper", 3, "Boom Boom Boom 1");
     }
 
     @Test
@@ -43,5 +43,15 @@ public class TimpaniTest {
     public void canSetPrimaryMaterial(){
         boomBoomBooom1.setPrimaryMaterial("Plastic");
         assertEquals("Plastic", boomBoomBooom1.getPrimaryMaterial());
+    }
+
+    @Test
+    public void canGetName(){
+        assertEquals("Boom Boom Boom 1", boomBoomBooom1.getName());
+    }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Now playing Boom Boom Boom 1", boomBoomBooom1.play());
     }
 }
