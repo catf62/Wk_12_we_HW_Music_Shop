@@ -9,7 +9,8 @@ public class TimpaniTest {
 
     @Before
     public void before(){
-        boomBoomBooom1 = new Timpani(ItemType.PERCUSSION, "Copper", 3, "Boom Boom Boom 1");
+        boomBoomBooom1 = new Timpani(ItemType.PERCUSSION, "Copper",
+                3, "Boom Boom Boom 1", 300.00, 500.00);
     }
 
     @Test

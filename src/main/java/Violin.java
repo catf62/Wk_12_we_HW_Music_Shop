@@ -1,8 +1,8 @@
 public class Violin extends Instrument {
     private Integer numberOfStrings;
 
-    public Violin(ItemType type, String primaryMaterial, Integer numberOfStrings, String name){
-        super(type, primaryMaterial, name);
+    public Violin(ItemType type, String primaryMaterial, Integer numberOfStrings, String name, Double buyPrice, Double sellPrice){
+        super(type, primaryMaterial, name, buyPrice, sellPrice);
         this.numberOfStrings = numberOfStrings;
 
     }
