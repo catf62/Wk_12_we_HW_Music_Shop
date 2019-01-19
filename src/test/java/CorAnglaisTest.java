@@ -83,4 +83,9 @@ public class CorAnglaisTest {
         assertEquals(62.50, corAnglais1.calculateMarkUp(), 0.001);
     }
 
+    @Test
+    public void canReturnMarkUpAsCash(){
+        assertEquals(150.00, corAnglais1.returnMarkUpAsCash(), 0.001);
+    }
+
 }

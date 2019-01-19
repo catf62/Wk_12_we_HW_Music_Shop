@@ -60,4 +60,9 @@ public class DrumsticksTest {
     public void canCalculateMarkup(){
         assertEquals(66.67, taikoSticks.calculateMarkUp(), 0.001);
     }
+
+    @Test
+    public void canReturnMarkUpAsCash(){
+        assertEquals(5.00, taikoSticks.returnMarkUpAsCash(), 0.001);
+    }
 }

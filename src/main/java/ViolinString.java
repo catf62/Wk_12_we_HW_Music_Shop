@@ -46,4 +46,8 @@ public class ViolinString implements ISell {
     public Double calculateMarkUp(){
         return Math.round((this.buyPrice/this.sellPrice*100)*100d)/100d;
     }
+
+    public Double returnMarkUpAsCash(){
+        return sellPrice-buyPrice;
+    }
 }

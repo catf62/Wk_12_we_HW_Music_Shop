@@ -23,4 +23,12 @@ public class Shop {
         return stock.toString();
     }
 
+    public Double calculateFullStockProfit(){
+        Double totalStock = 0.00;
+        for (ISell item: this.stock) {
+           totalStock += item.returnMarkUpAsCash();
+        }
+        return totalStock;
+    }
+
 }
