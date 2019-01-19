@@ -44,6 +44,6 @@ public class Drumsticks implements ISell {
     }
 
     public Double calculateMarkUp(){
-       return this.buyPrice/this.sellPrice*100;
+       return Math.round((this.buyPrice/this.sellPrice*100)*100d)/100d;
     }
 }

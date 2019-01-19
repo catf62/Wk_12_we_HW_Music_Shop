@@ -57,7 +57,7 @@ public class DrumsticksTest {
     }
 
     @Test
-    public Double canCalculateMarkup(){
+    public void canCalculateMarkup(){
         assertEquals(66.67, taikoSticks.calculateMarkUp(), 0.001);
     }
 }
