@@ -50,7 +50,7 @@ public class ViolinStringTest {
     }
 
     @Test
-    public void cangetName(){
+    public void canGetName(){
         string1.setName("Cruelty Free String");
         assertEquals("Cruelty Free String", string1.getName());
     }

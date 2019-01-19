@@ -51,7 +51,7 @@ public class DrumsticksTest {
     }
 
     @Test
-    public void cangetName(){
+    public void canGetName(){
         taikoSticks.setName("Super Fat Sticks");
         assertEquals("Super Fat Sticks", taikoSticks.getName());
     }
