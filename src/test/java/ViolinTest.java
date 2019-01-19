@@ -56,6 +56,32 @@ public class ViolinTest {
         assertEquals("Now playing Stradivarius 1", stradivarius1.play());
     }
 
+    @Test
+    public void canGetBuyPrice(){
+        assertEquals(500.00, stradivarius1.getBuyPrice(), 0.001);
+    }
+
+    @Test
+    public void canSetBuyPrice(){
+        stradivarius1.setBuyPrice(20.00);
+        assertEquals(20.00, stradivarius1.getBuyPrice(), 0.001);
+    }
+
+    @Test
+    public void canGetSellPrice(){
+        assertEquals(750.00, stradivarius1.getSellPrice(), 0.001);
+    }
+
+    @Test
+    public void canSetSellPrice(){
+        stradivarius1.setSellPrice(30.00);
+        assertEquals(30.00, stradivarius1.getSellPrice(), 0.001);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(66.67, stradivarius1.calculateMarkUp(), 0.001);
+    }
 
 
 }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87694cfd-77f2-46d9-9674-db39e326c43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/CorAnglais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CorAnglais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CorAnglaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CorAnglaisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ViolinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ViolinTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5116" />
+          <entry key="JAVA" value="5272" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -54,35 +53,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ViolinString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="21" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CorAnglais.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -92,59 +62,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ViolinStringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Instrument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CorAnglaisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="84" lean-forward="true" selection-start-line="58" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1447#1448#0" expanded="true" />
                 <element signature="e#1517#1518#0" expanded="true" />
                 <element signature="e#1585#1586#0" expanded="true" />
                 <element signature="e#1651#1652#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ViolinTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+                <element signature="e#1810#1811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TimpaniTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -471,10 +426,6 @@
         <option value="$PROJECT_DIR$/src/test/java/CoAnglaisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Violin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Timpani.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ViolinTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TimpaniTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ISell.java" />
         <option value="$PROJECT_DIR$/src/main/java/Drumsticks.java" />
         <option value="$PROJECT_DIR$/src/main/java/ViolinString.java" />
@@ -485,6 +436,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/CorAnglais.java" />
         <option value="$PROJECT_DIR$/src/test/java/CorAnglaisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Timpani.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Violin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TimpaniTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ViolinTest.java" />
       </list>
     </option>
   </component>
@@ -549,7 +504,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547924322297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547924468489" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -563,21 +518,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CorAnglaisTest">
+  <component name="RunManager" selected="JUnit.ViolinTest">
     <configuration name="CorAnglaisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week_12_we_HW_Music_Shop_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CorAnglaisTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrumsticksTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Week_12_we_HW_Music_Shop_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DrumsticksTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -608,20 +553,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ViolinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Week_12_we_HW_Music_Shop_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ViolinTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.DrumsticksTest.canCalculateMarkup" />
       <item itemvalue="JUnit.ViolinStringTest" />
       <item itemvalue="JUnit.ViolinStringTest.canName" />
       <item itemvalue="JUnit.ReedTest" />
       <item itemvalue="JUnit.CorAnglaisTest" />
+      <item itemvalue="JUnit.ViolinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ViolinTest" />
         <item itemvalue="JUnit.CorAnglaisTest" />
         <item itemvalue="JUnit.ReedTest" />
         <item itemvalue="JUnit.ViolinStringTest.canName" />
         <item itemvalue="JUnit.ViolinStringTest" />
-        <item itemvalue="JUnit.DrumsticksTest.canCalculateMarkup" />
       </list>
     </recent_temporary>
   </component>
@@ -639,9 +592,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DrumsticksTest - 2019.01.18 at 19h 13m 38s.xml">
-      <configuration name="DrumsticksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DrumsticksTest_canCalculateMarkup - 2019.01.19 at 18h 16m 23s.xml">
       <configuration name="DrumsticksTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
@@ -668,6 +618,9 @@
     </history-entry>
     <history-entry file="ReedTest - 2019.01.19 at 18h 36m 41s.xml">
       <configuration name="ReedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorAnglaisTest - 2019.01.19 at 18h 58m 45s.xml">
+      <configuration name="CorAnglaisTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -715,64 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Timpani.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TimpaniTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="47" selection-start-line="47" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Violin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IPlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ViolinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,16 +843,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Timpani.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="127" selection-start-line="3" selection-start-column="127" selection-end-line="3" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Violin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TimpaniTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CorAnglaisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        <state relative-caret-position="308">
+          <caret line="84" lean-forward="true" selection-start-line="58" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1447#1448#0" expanded="true" />
             <element signature="e#1517#1518#0" expanded="true" />
             <element signature="e#1585#1586#0" expanded="true" />
             <element signature="e#1651#1652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ViolinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
           </folding>
         </state>
       </provider>
