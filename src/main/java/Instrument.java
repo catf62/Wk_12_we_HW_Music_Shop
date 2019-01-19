@@ -1,12 +1,16 @@
-public abstract class Instrument {
+public abstract class Instrument implements ISell {
     private ItemType type;
     private String primaryMaterial;
     private String name;
+    private Double buyPrice;
+    private Double sellPrice;
 
-    public Instrument(ItemType type, String primaryMaterial, String name){
+    public Instrument(ItemType type, String primaryMaterial, String name, Double buyPrice, Double sellPrice){
         this.type = type;
         this.primaryMaterial = primaryMaterial;
         this.name = name;
+        this.buyPrice = buyPrice;
+        this.sellPrice = sellPrice;
     }
 
     public ItemType getType(){
@@ -36,5 +40,25 @@ public abstract class Instrument {
 
     public String play(){
         return "Now playing " + this.name;
+    }
+
+    public Double getBuyPrice() {
+        return buyPrice;
+    }
+
+    public void setBuyPrice(Double buyPrice) {
+        this.buyPrice = buyPrice;
+    }
+
+    public Double getSellPrice() {
+        return sellPrice;
+    }
+
+    public void setSellPrice(Double sellPrice) {
+        this.sellPrice = sellPrice;
+    }
+
+    public Double calculateMarkUp(){
+        return Math.round((this.buyPrice/this.sellPrice*100)*100d)/100d;
     }
 }
