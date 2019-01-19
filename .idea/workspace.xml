@@ -504,7 +504,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547924468489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547924580329" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,7 +518,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ViolinTest">
+  <component name="RunManager" selected="JUnit.TimpaniTest">
     <configuration name="CorAnglaisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week_12_we_HW_Music_Shop_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -535,10 +535,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViolinStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimpaniTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Week_12_we_HW_Music_Shop_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ViolinStringTest" />
+      <option name="MAIN_CLASS_NAME" value="TimpaniTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -562,19 +562,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ViolinStringTest" />
       <item itemvalue="JUnit.ViolinStringTest.canName" />
       <item itemvalue="JUnit.ReedTest" />
       <item itemvalue="JUnit.CorAnglaisTest" />
       <item itemvalue="JUnit.ViolinTest" />
+      <item itemvalue="JUnit.TimpaniTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimpaniTest" />
         <item itemvalue="JUnit.ViolinTest" />
         <item itemvalue="JUnit.CorAnglaisTest" />
         <item itemvalue="JUnit.ReedTest" />
         <item itemvalue="JUnit.ViolinStringTest.canName" />
-        <item itemvalue="JUnit.ViolinStringTest" />
       </list>
     </recent_temporary>
   </component>

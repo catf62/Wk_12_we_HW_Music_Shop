@@ -55,4 +55,33 @@ public class TimpaniTest {
     public void canPlay(){
         assertEquals("Now playing Boom Boom Boom 1", boomBoomBooom1.play());
     }
+
+    @Test
+    public void canGetBuyPrice(){
+        assertEquals(300.00, boomBoomBooom1.getBuyPrice(), 0.001);
+    }
+
+    @Test
+    public void canSetBuyPrice(){
+        boomBoomBooom1.setBuyPrice(20.00);
+        assertEquals(20.00, boomBoomBooom1.getBuyPrice(), 0.001);
+    }
+
+    @Test
+    public void canGetSellPrice(){
+        assertEquals(500.00, boomBoomBooom1.getSellPrice(), 0.001);
+    }
+
+    @Test
+    public void canSetSellPrice(){
+        boomBoomBooom1.setSellPrice(30.00);
+        assertEquals(30.00, boomBoomBooom1.getSellPrice(), 0.001);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(60.00, boomBoomBooom1.calculateMarkUp(), 0.001);
+    }
+
+
 }
